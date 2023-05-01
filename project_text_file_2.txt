@@ -1,0 +1,21 @@
+Edison High School Contact List:
+
+David French
+david.french@edison.edu
+714-866-2222
+
+Ethan Hawkes
+ethan.hawkes@edison.edu
+714-866-3333
+
+Tom Broke
+tom.broke@edison.edu
+714-866-4444
+
+Jenny McCoy
+jenny.mccoy@edison.edu
+714-866-5555
+
+Jake Soto
+jake.soto@edison.edu
+714-866-6666
