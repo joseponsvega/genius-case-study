@@ -56,7 +56,7 @@ toolkit = FileManagementToolkit(root_dir=str(working_directory.name)) # If you d
 
 agent = initialize_agent(tools, llm, agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION, verbose=True, memory=memory)
 
-question = "Which of the Mathematics professors are male?"
+question = "What days and periods is the subject with the lowest average grade taught?"
 
 agent.run(f"You have the following files at your disposal: Grades.csv, Professors.csv, Syllabus.txt and Weekly Schedule.txt. First, summarize each file and what information it contains. Then using those files and knowing the information within each one, answer the following question: {question}  Don't forget to use the structure of Action, Action Input, etc.")
 
