@@ -36,8 +36,14 @@ dependencies = [
     "gradio_client>=0.1.2",
     "gradio_tools[langchain]",
     "gradio_tools[minichain]",
-    "chromadb"
+    "chromadb",
+    "unstructured",
+    "tiktoken",
+    "pypdf",
+    "unstructured[local-inference]",
+    "tabulate"
 ]
+
 [project.optional-dependencies]
 minichain = ["gradio", "minichain>=0.3.3"]
 langchain = ["langchain", "openai"]
