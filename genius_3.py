@@ -40,6 +40,6 @@ working_directory = TemporaryDirectory()
 
 agent = initialize_agent(tools, llm, agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION, verbose=True, memory=memory)
 
-question = "What is the average grade for the subject taught in 1st period on Tuesday?"
+question = "What is the subject with the lowest average grade? Find its syllabus."
 
 agent.run(f"You have the following files at your disposal: Grades.csv, Professors.csv, Syllabus.txt and Weekly Schedule.txt. First, summarize each file and what information it contains. Then using those files and knowing the information within each one, answer the following question: {question} Remember to use the structure of Action, Action Input, etc.")
